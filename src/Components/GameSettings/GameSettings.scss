@@ -1,0 +1,21 @@
+.settings {
+  display: flex;
+
+  &__select {
+    display: block;
+    margin-right: 1rem;
+  }
+
+  &__form {
+    display: flex;
+    align-items: center;
+
+    &_item {
+      display: block;
+
+      &:not(:last-child) {
+        margin-right: 1rem;
+      }
+    }
+  }
+}
